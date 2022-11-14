@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #5e0404,#eb1026);
+}
+#header{
+    height: 60px;
+    width: 99%;
+    margin: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgb(197, 15, 15);
+    justify-content: space-around;
+}
+
+#logo img {
+    margin: 3px;
+    margin-left: -100px;
+    height: 55px;
+    width: 140px;
+}
+#search-conatiner {
+    margin: 5px;
+    height: 50px;
+    width: 450px;
+
+}
+#search-input {
+    font-size: 1rem;
+    height: 34px;
+    width: 370px;
+    margin: 6px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#search-hero {
+font-size: 1.1rem;
+height: 30px;
+width: 30px;
+margin-left: 5px;
+border: none;
+border-radius: 6px;
+}
+#random-heroBtn{
+height: 30px;
+width:120px;
+margin: 15px;
+border-radius: 6px;
+}
+#favourite{
+ font-size: 1.3rem;
+margin: 15px;
+border: none;
+background-color:rgb(197, 15, 15);
+}
+
+.main-container {
+    height:140% ;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 2rem 9rem;
+    display: flex;
+    /* background-color: rgb(13, 124, 20); */
+    
+}
+#superHero-image {
+    height: 380px;
+    width: 260px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+#superHero-image img {
+    height: 300px;
+    width: 250px;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+.AddToFvrt{
+    background-color: #f7f6f6;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-left: 40px;
+    border: 1px solid wheat;
+    width: 180px;
+}
+#superHero-info{
+    height: 100%;
+    width: 100%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    
+}
+#superHero-name{
+   color: aliceblue;
+   font-size: 1.5rem;
+   text-align: center;
+   margin-top: 10px;
+   
+}
+
+.powerStat{
+    background-color: rgb(112, 13, 20);
+    
+}
+#powerStats {
+    height: 30%;
+    width: 95%;
+    /* padding: 20px; */
+    /* margin: 18px 10px; */
+    font-size: 1.2rem;
+    line-height: 2;
+    color: aliceblue;
+  
+}
+#biography {
+    height: 36%;
+    width: 95%;
+    /* padding: 20px; */
+    /* margin-top: 40px; */
+    font-size: 1.2rem;
+    line-height: 2;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#resultList{
+    height: 200px;
+    width: 200px;
+    color: rgb(246, 242, 242);
+    list-style-type: none;
+    margin-left: 25px;
+    
+}
+.change-color {
+    color: #eb1026;
+}
